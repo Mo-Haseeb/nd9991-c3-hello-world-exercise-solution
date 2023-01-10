@@ -90,7 +90,7 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          fingerprints: ["35:25:a4:1d:98:5e:04:bb:b0:ee:2e:d7:e9:52:11:75"] # You can get this ID in the section where you registered the SSH Key
+          fingerprints: ["c6:7a:08:01:ae:dc:8a:e1:79:7b:d5:db:6a:48:58:cd"] # You can get this ID in the section where you registered the SSH Key
       - run:
           name: Install dependencies
           command: |
